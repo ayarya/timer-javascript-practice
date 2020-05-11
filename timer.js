@@ -30,6 +30,7 @@ class Timer {
 		} else {
 			this.timeRemaining = this.timeRemaining - 1;
 			if (this.onTick) {
+				console.log('ayush');
 				this.onTick();
 			}
 		}
